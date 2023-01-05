@@ -15,10 +15,10 @@
 - run check for new sub domains
 > ./domain-monitor.sh -a cron
 
-# contab on linux system
+# crontab on linux system
 
 - open crontab editor
 > crontab -e
 
 - add this line (monitor every hour)
-0 * * * * /path/to/domain-monitor.sh -a cron
+> 0 * * * * /path/to/domain-monitor.sh -a cron
